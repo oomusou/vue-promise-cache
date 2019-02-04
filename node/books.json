@@ -1,0 +1,7 @@
+{
+  "books": [
+    { "id": 1, "title": "FP in JavaScript" },
+    { "id": 2, "title": "RxJS in Action" },
+    { "id": 3, "title":"Speaking JavaScript" }
+  ]
+}
