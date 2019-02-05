@@ -5,6 +5,6 @@ export const cache = fn => (() => {
 
   return args => {
     const key = toKey(args);
-    return (storage[key]) ? storage[key] : storage[key] = fn(args);
+    return storage[key] ? storage[key] : storage[key] = fn(args);
   };
 })();
